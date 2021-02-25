@@ -1,3 +1,13 @@
 {
-  "TODO": "TODO"
+  "skus": [{
+      "title": "The best stories in all the world, all in one place.",
+      "actionSignUp": "SIGN UP NOW",
+      "description": "Start streaming Disney+ with your 7 day free trial, then only 6.99/month.",
+      "sku": "dplus_free_trial",
+      "backgroundImage": "http://localhost:8000/images/splash.png",
+      "brandsImage": "http://localhost:8000/images/brands.png",
+      "logoImage": "http://localhost:8000/images/logo.png",
+      "actionLogIn": "Log In",
+      "isFullscreen": true
+  }]
 }

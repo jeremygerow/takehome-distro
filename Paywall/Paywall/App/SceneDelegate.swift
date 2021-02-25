@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     if useUIKit {
       let rootViewController = PaywallViewController()
-      rootViewController.view.backgroundColor = .red
+      rootViewController.view.backgroundColor = .white
       if let windowScene = scene as? UIWindowScene {
         let window = UIWindow(windowScene: windowScene)
         window.rootViewController = rootViewController

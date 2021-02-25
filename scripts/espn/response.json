@@ -1,3 +1,13 @@
 {
-  "TODO": "TODO"
+  "skus": [{
+      "title": "Serving Fans. Anytime. Anywhere.",
+      "actionSignUp": "Get ESPN+ Now",
+      "description": "All the Sports. All the Time. Thousands of events, exclusive original series, and more--all in HD.",
+      "sku": "eplus_free_trial",
+      "backgroundImage": "http://localhost:8000/images/espn.png",
+      "brandsImage": "",
+      "logoImage": "",
+      "actionLogIn": "Log In",
+      "isFullscreen": false
+  }]
 }

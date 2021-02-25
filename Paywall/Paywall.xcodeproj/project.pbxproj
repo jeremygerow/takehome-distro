@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16DC20AE25E7654F001EADAB /* PaywallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC20AB25E7654F001EADAB /* PaywallService.swift */; };
+		16DC20AF25E7654F001EADAB /* PaywallSKU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC20AC25E7654F001EADAB /* PaywallSKU.swift */; };
+		16DC20B025E7654F001EADAB /* Paywall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC20AD25E7654F001EADAB /* Paywall.swift */; };
+		16DC20BE25E765AB001EADAB /* PaywallSKUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC20B725E765AB001EADAB /* PaywallSKUView.swift */; };
+		16DC20BF25E765AB001EADAB /* PaywallFullscreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DC20B825E765AB001EADAB /* PaywallFullscreenView.xib */; };
+		16DC20C025E765AB001EADAB /* PaywallModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC20B925E765AB001EADAB /* PaywallModalView.swift */; };
+		16DC20C125E765AB001EADAB /* PaywallModalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DC20BA25E765AB001EADAB /* PaywallModalView.xib */; };
+		16DC20C225E765AB001EADAB /* PaywallViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC20BB25E765AB001EADAB /* PaywallViewDelegate.swift */; };
+		16DC20C325E765AB001EADAB /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC20BC25E765AB001EADAB /* UIImageView+Extensions.swift */; };
+		16DC20C425E765AB001EADAB /* PaywallFullscreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC20BD25E765AB001EADAB /* PaywallFullscreenView.swift */; };
+		16DC20E725E7675A001EADAB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC20E625E7675A001EADAB /* UIView+Extensions.swift */; };
 		C3E0C60B25239C310034987E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E0C60A25239C310034987E /* AppDelegate.swift */; };
 		C3E0C60D25239C310034987E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E0C60C25239C310034987E /* SceneDelegate.swift */; };
 		C3E0C60F25239C310034987E /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E0C60E25239C310034987E /* PaywallView.swift */; };
@@ -33,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16DC20AB25E7654F001EADAB /* PaywallService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallService.swift; sourceTree = "<group>"; };
+		16DC20AC25E7654F001EADAB /* PaywallSKU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallSKU.swift; sourceTree = "<group>"; };
+		16DC20AD25E7654F001EADAB /* Paywall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paywall.swift; sourceTree = "<group>"; };
+		16DC20B725E765AB001EADAB /* PaywallSKUView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallSKUView.swift; sourceTree = "<group>"; };
+		16DC20B825E765AB001EADAB /* PaywallFullscreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaywallFullscreenView.xib; sourceTree = "<group>"; };
+		16DC20B925E765AB001EADAB /* PaywallModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallModalView.swift; sourceTree = "<group>"; };
+		16DC20BA25E765AB001EADAB /* PaywallModalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaywallModalView.xib; sourceTree = "<group>"; };
+		16DC20BB25E765AB001EADAB /* PaywallViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallViewDelegate.swift; sourceTree = "<group>"; };
+		16DC20BC25E765AB001EADAB /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		16DC20BD25E765AB001EADAB /* PaywallFullscreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallFullscreenView.swift; sourceTree = "<group>"; };
+		16DC20E625E7675A001EADAB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		C3E0C60725239C310034987E /* Paywall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paywall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E0C60A25239C310034987E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E0C60C25239C310034987E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +92,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16DC20B325E76556001EADAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16DC20AD25E7654F001EADAB /* Paywall.swift */,
+				16DC20AC25E7654F001EADAB /* PaywallSKU.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		16DC20B425E7655C001EADAB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				16DC20AB25E7654F001EADAB /* PaywallService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		16DC20C725E765C4001EADAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				16DC20BC25E765AB001EADAB /* UIImageView+Extensions.swift */,
+				16DC20E625E7675A001EADAB /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		16DC20C825E765D4001EADAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C3E0C5FE25239C310034987E = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +150,8 @@
 				C3E0C6352523A0BF0034987E /* PROMPT.md */,
 				C3E0C6362523A0BF0034987E /* README.md */,
 				C3E0C62E25239D370034987E /* App */,
+				16DC20B325E76556001EADAB /* Models */,
+				16DC20B425E7655C001EADAB /* Services */,
 				C3E0C62D25239D300034987E /* SwiftUI */,
 				C3E0C62C25239D270034987E /* UIKit */,
 			);
@@ -121,7 +178,15 @@
 		C3E0C62C25239D270034987E /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				16DC20C725E765C4001EADAB /* Extensions */,
+				16DC20C825E765D4001EADAB /* Views */,
+				16DC20BD25E765AB001EADAB /* PaywallFullscreenView.swift */,
+				16DC20B825E765AB001EADAB /* PaywallFullscreenView.xib */,
+				16DC20B925E765AB001EADAB /* PaywallModalView.swift */,
+				16DC20BA25E765AB001EADAB /* PaywallModalView.xib */,
+				16DC20B725E765AB001EADAB /* PaywallSKUView.swift */,
 				C3E0C62F25239D4B0034987E /* PaywallViewController.swift */,
+				16DC20BB25E765AB001EADAB /* PaywallViewDelegate.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -194,7 +259,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Disney Streaming Services";
 				TargetAttributes = {
 					C3E0C60625239C310034987E = {
@@ -230,12 +295,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DC20BF25E765AB001EADAB /* PaywallFullscreenView.xib in Resources */,
 				C3E0C6382523A0BF0034987E /* README.md in Resources */,
 				C3E0C61725239C330034987E /* LaunchScreen.storyboard in Resources */,
 				C3E0C61425239C330034987E /* Preview Assets.xcassets in Resources */,
 				C3E0C6372523A0BF0034987E /* PROMPT.md in Resources */,
 				C3E0C61125239C330034987E /* Assets.xcassets in Resources */,
 				C3E0C6342523A0B20034987E /* scripts in Resources */,
+				16DC20C125E765AB001EADAB /* PaywallModalView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +320,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DC20C325E765AB001EADAB /* UIImageView+Extensions.swift in Sources */,
+				16DC20AF25E7654F001EADAB /* PaywallSKU.swift in Sources */,
+				16DC20B025E7654F001EADAB /* Paywall.swift in Sources */,
 				C3E0C60B25239C310034987E /* AppDelegate.swift in Sources */,
 				C3E0C63225239F7A0034987E /* SwiftUIShakeHandling.swift in Sources */,
 				C3E0C60D25239C310034987E /* SceneDelegate.swift in Sources */,
+				16DC20C025E765AB001EADAB /* PaywallModalView.swift in Sources */,
+				16DC20BE25E765AB001EADAB /* PaywallSKUView.swift in Sources */,
 				C3E0C60F25239C310034987E /* PaywallView.swift in Sources */,
+				16DC20C225E765AB001EADAB /* PaywallViewDelegate.swift in Sources */,
 				C3E0C63025239D4B0034987E /* PaywallViewController.swift in Sources */,
 				C3E0C63A2523A1A10034987E /* NetworkingHelpers.swift in Sources */,
+				16DC20E725E7675A001EADAB /* UIView+Extensions.swift in Sources */,
+				16DC20C425E765AB001EADAB /* PaywallFullscreenView.swift in Sources */,
+				16DC20AE25E7654F001EADAB /* PaywallService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +394,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -378,6 +455,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
